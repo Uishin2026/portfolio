@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <meta name="description" content="マーのポートフォリオ">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"><!--lobster-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"><!--noto sans-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"><!--lato-->
+    <link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:wght@300&display=swap" rel="stylesheet"><!--mono-->
+
+    <!--css-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!--icon-->
+    <script src="https://kit.fontawesome.com/3833e00bd1.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="main">
+    <!--ローディング画面-->
+    <div id="loader-wrapper">
+        <div class="loader-text">LOADING...</div>
+    </div>
+    <header class="wrapper">
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#profile">Profile</a></li>
+                <li><a href="index.html#skill">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="wrapper">
+        <video src="photo/video.mp4" autoplay loop muted></video>
+        <div class="home-text">
+            <h1 class="title">Welcome</h1>
+            <p>to Mar`s PortFolio</p>
+        </div>
+        <div class="scroll-group"> <p class="scroll">SCROLL</p>
+            <i class="scroll-icon-down"></i>
+        </div>
+    </section>
+
+    <section id="profile" class="wrapper">
+        <h2 class="sub-title">Profile</h2>
+        <h3>酒井　眞尋</h3>
+        <p>
+            大学在学中にWebデザインの魅力に惹かれ、休学期間を経て、本格的にWeb制作の学習に専念することを決意しました。<br>
+            独学でHTML、CSS、JavaScriptをpaiza,progateで基礎を学習し、<br>
+            その後、『1冊ですべて身につくHTML & CSSとWebデザイン入門講座』、『ほんの一手間で劇的に変わるHTML & CSSとWebデザイン実践講座』を参考に様々なジャンルのWebサイト制作に取り組んでいます。<br>
+            ユーザーに寄り添い、目的を達成するWebサイトを制作することを目標としています。<br>
+            現在はWebサイトの企画からコーディング（HTML/CSS/JavaScript）、公開までを一貫して担当できる「コーダー」を軸として活動しています。<br>
+            しかし、将来的には、ヒアリングからデザイン、運用・保守までマルチにこなせるフリーランスを見据えており、今後は表面的なコーディングにとどまらず、PHPやSQLといったサーバーサイド・データベースの技術も習得し、よりディープなシステム構築まで手がけられる制作者を目指しています。
+        </p>
+        <p>趣味：読書、ラジオ、ゲーム</p>
+    </section>
+    <section id="skill" class="wrapper">
+        <h2 class="sub-title">Skill</h2>
+        <p>
+            以下に掲載しているWebサイトは、当ポートフォリオを除き、すべて架空の会社・イベントを想定して作成したものです。(作品内のフォームは稼働していません。ギャラリーサイトについてはダークモードにも対応しております)<br>
+            Manaさんの著書（『1冊ですべて身につくHTML & CSSとWebデザイン入門講座』、『ほんの一手間で劇的に変わるHTML & CSSとWebデザイン実践講座』）をベースにしていますが、単なるコードの流用（丸コピ）ではなく、書籍にない要素を独自に追加したり、世界観に合わせたデザイン・UIのアレンジ（Canvaによるロゴ・ファビコン作成、Pixabayの素材選定、SCSSによるスタイリング変更等）を自ら設計し、応用力を意識して制作しました。
+        </p>
+
+        <h3>強み</h3>
+        <p>
+            HTML、CSS、JavaScriptを中心にWebサイト制作に取り組んできました。<br>
+            デザインツールとしてCanvaを使用し、ロゴやファビコンを作成し、サイトの企画からコーディング、公開まで一貫して担当できます。<br>
+            実践編の書籍のように、あえて詳細なコードが省略されていても、これまでの基礎知識の復習や技術リサーチ、AIを活用したデバッグなどを通して、自力で仕様を補完し実装まで落とし込み、解決できる力を身に付けました。
+        </p>
+
+        <h3>主な使用技術</h3>
+        <ul class="skill-list">
+           <li><strong>HTML / CSS(scss):</strong> レスポンシブデザイン、アニメーション、mixinを活用した効率的なコード管理、SEOを意識した構造化</li>
+            <li><strong>JavaScript:</strong> 動的なコンテンツ（ハンバーガーメニュー等の動的UI制御、ページ連動スクロール）、フォームバリデーション</li>
+            <li><strong>Canva:</strong> ロゴ、ファビコン、簡単なバナーデザイン</li>
+            <li><strong>Git / GitHub:</strong> バージョン管理、ソースコードの公開・共有</li>
+        </ul>
+
+        <h3>制作実績</h3>
+        
+        <h3 class="pl-label">HP</h3>
+        <div class="cafe">
+            <img src="photo/cafe.png" alt="架空のカフェのHPのトップ画面">
+            <p>架空のカフェ【Love Heart Cafe】のサイトです</p>
+            <a href="https://uishin2026.github.io/Love-Heart-Cafe/Cafe/index.html" class="s-btn" target="_blank" rel="noopener noreferrer"><span>サイトへ</span></a>
+            <a href="https://github.com/Uishin2026/Love-Heart-Cafe" class="c-btn"  target="_blank" rel="noopener noreferrer"><span>コードへ</span></a>
+            <a href="cafe.html" class="link-btn"><span>詳細を見る</span></a>
+        </div>
+
+        <h3 class="lp-label">LP</h3>
+        <div class="bakery">
+            <img src="photo/LP.png" alt="架空のベーカリーのLPのトップ画面">
+            <p>架空のパン屋【Dipper Bakery】のサイトです</p>
+            <a href="https://uishin2026.github.io/Dipper-Bakery/sample/index.html" class="s-btn" target="_blank" rel="noopener noreferrer"><span>サイトへ</span></a>
+            <a href="https://github.com/Uishin2026/Dipper-Bakery" class="c-btn"  target="_blank" rel="noopener noreferrer"><span>コードへ</span></a>
+            <a href="bakery.html" class="link-btn"><span>詳細を見る</span></a>
+        </div>
+
+        <h3 class="b-label">Blog</h3>
+        <div class="blog">
+            <img src="photo/blog.png" alt="架空の猫に関するブログのトップ画面">
+            <p>架空の猫ブログ【Cat Blog】です</p>
+            <a href="https://uishin2026.github.io/Cat-Blog/sample/index.html" class="s-btn" target="_blank" rel="noopener noreferrer"><span>サイトへ</span></a>
+            <a href="https://github.com/Uishin2026/Cat-Blog" class="c-btn"  target="_blank" rel="noopener noreferrer"><span>コードへ</span></a>
+            <a href="blog.html" class="link-btn"><span>詳細を見る</span></a>
+        </div>
+
+        <h3 class="c-label">Corporate</h3>
+        <div class="corporate">
+            <img src="photo/company.png" alt="架空のデザイン会社のHPのトップ画面">
+            <p>架空のデザイン会社【Minor Web】のコーポレートサイトです</p>
+            <a href="https://uishin2026.github.io/Minor-Web/sample/index.html" class="s-btn" target="_blank" rel="noopener noreferrer"><span>サイトへ</span></a>
+            <a href="https://github.com/Uishin2026/Minor-Web" class="c-btn"  target="_blank" rel="noopener noreferrer"><span>コードへ</span></a>
+            <a href="corporate.html" class="link-btn"><span>詳細を見る</span></a>
+        </div>
+
+        <h3 class="e-label">Event</h3>
+        <div class="event">
+            <img src="photo/event.png" alt="架空のイベントに関するLPのトップ画面">
+            <p>架空のイベント【Scorpion Novel】のサイトです</p>
+            <a href="https://uishin2026.github.io/Scorpion-Novel/sample/index.html" class="s-btn" target="_blank" rel="noopener noreferrer"><span>サイトへ</span></a>
+            <a href="https://github.com/Uishin2026/Scorpion-Novel" class="c-btn"  target="_blank" rel="noopener noreferrer"><span>コードへ</span></a>
+            <a href="event.html" class="link-btn"><span>詳細を見る</span></a>
+        </div>
+
+        <h3 class="g-label">Gallery</h3>
+        <div class="gallery">
+            <img src="photo/gallery.png" alt="架空のギャラリーサイトのトップ画面">
+            <p>架空のギャラリーサイト【Travel Record】です</p>
+            <a href="https://uishin2026.github.io/Travel-Record/sample/index.html" class="s-btn" target="_blank" rel="noopener noreferrer"><span>サイトへ</span></a>
+            <a href="https://github.com/Uishin2026/Travel-Record" class="c-btn"  target="_blank" rel="noopener noreferrer"><span>コードへ</span></a>
+            <a href="gallery.html" class="link-btn"><span>詳細を見る</span></a>
+        </div>
+
+        <h3 class="pl-label">portfolio</h3>
+        <div class="pl">
+            <img src="photo/portfolio.png" alt="当ポートフォリオのトップ画面">
+            <p>当サイトです</p>
+            <a href="https://github.com/Uishin2026/portfolio" class="c-btn"  target="_blank" rel="noopener noreferrer"><span>コードへ</span></a>
+            <a href="portfolio.html" class="link-btn"><span>詳細を見る</span></a>
+        </div>
+    </section>
+    <section id="contact" class="wrapper">
+        <div class="contact-text">
+            <h2 class="sub-title">Contact</h2>
+            <p>ここまでご覧いただきありがとうございます。</p>
+            <p>Webサイト制作のご依頼や、ご質問などございましたら、お気軽にお問い合わせください。</p>
+            <form class="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd9Ezs5JjHtKwTompz6VLQ5tmIaUeuAOk7OpgT4EWdYl4IX2A/formResponse" method="POST">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="entry.1643445749" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="entry.538561081" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">お問い合わせ内容</label>
+                    <textarea id="message" name="entry.810574043" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button"><span>送信</span></button>
+            </form>
+        </div>
+    </section>
+    <footer class="wrapper">
+        <nav>
+            <ul class="footer-nav">
+                <li><a href="https://x.com/Seika_Yakou"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/seika_yakou/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!--js-->
+    <script src="js/script.js"></script>
+</body>
+</html>
